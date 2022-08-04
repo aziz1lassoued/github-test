@@ -9,7 +9,7 @@ mongoose.connect(DB).then(() => {
   console.log("BD Connexion avec succès ");
 });
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 const server = app.listen(port, () => {
   console.log(`serveur fonctionnant sur le port ${port}`);
 });

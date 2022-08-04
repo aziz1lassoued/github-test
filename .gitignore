@@ -1,3 +1,2 @@
 node_modules
-.env
-/PFE-DEV/node_modules
+./PFE-DEV/node_modules

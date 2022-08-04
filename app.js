@@ -10,6 +10,9 @@ const offreRouter = require("./routes/offreRoutes");
 
 app = express();
 app.use(cors({ origine: "*" }));
+app.get('/',(req,res)=>{
+    res.send('hello world')
+})
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
